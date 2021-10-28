@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-    <h1>FILM</h1>
+<div class="card">
+    @foreach ($movies as $movie)
+        <p>{{ $movie['title'] }}</p>
+    @endforeach
+</div>
 @endsection
