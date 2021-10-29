@@ -1,13 +1,36 @@
 header {
   color: red;
   text-align: center;
+  height: 100px;
+  width: 100%;
 }
 
 main {
   text-align: center;
+  width: 100%;
+  height: calc(100% - 200px);
+}
+main .single-movie {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 600px;
+  margin-bottom: 50px;
+}
+main .single-movie .movie {
+  width: calc(20% - 30px);
+  height: 50%;
+  text-align: center;
+  border: 3px solid red;
+  margin: 0 10px 20px 10px;
+}
+main .single-movie .movie p {
+  padding: 5px 10px;
 }
 
 footer {
   color: red;
   text-align: center;
+  height: 100px;
+  width: 100%;
 }
